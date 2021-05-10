@@ -92,7 +92,6 @@ def view_all_courses():
 
     sub_list.pack(side="left",fill="both", expand=True)
     scrollBar.config( command = sub_list.yview )
-
 # ----------- Functions ----------- #
 
 # ----------- UI Setup ----------- #
