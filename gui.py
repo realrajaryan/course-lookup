@@ -3,7 +3,6 @@ import tkinter as tk
 from main import *
 from tkinter import *
 from tkinter import messagebox
-import os
 # ----------- Imports ----------- #
 
 # ----------- Functions ----------- #
@@ -16,8 +15,6 @@ def openNewWindow(win_title):
     newWindow.resizable(1,  1)
     newWindow.title(win_title)
     newWindow.configure(background="#d9d9d9")
-    #photo = PhotoImage(file = "favicon.png")
-    #newWindow.iconphoto(False, photo)
     newWindow.iconbitmap('favicon.ico')
 
     return newWindow
@@ -107,7 +104,6 @@ root.maxsize(3460, 1061)
 root.resizable(1,  1)
 root.title("Course Lookup - UW Madison")
 root.configure(background="#d9d9d9")
-#photo = PhotoImage(file = "favicon.png")
 root.iconbitmap('favicon.ico')
 
 # ----------- Menu Bar ----------- #
