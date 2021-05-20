@@ -51,19 +51,19 @@ def courseLookup(btnTxt):
 
 def clicked_sub():
     sub_entry = Entry(root)
-    sub_entry.place(relx=0.317, rely=0.4, height=20, relwidth=0.323)
+    sub_entry.place(relx = 0.317, rely = 0.4, height = 20, relwidth = 0.323)
 
     sub_go_button = Button(root, text='GO', command = lambda: subLookup(sub_entry.get()))
-    sub_go_button.place(relx=0.667, rely=0.378, height=44, width=47)
-    sub_go_button.configure(pady="0")
+    sub_go_button.place(relx = 0.667, rely = 0.378, height = 44, width = 47)
+    sub_go_button.configure(pady = "0")
 
 def clicked_course():
     course_entry = Entry(root)
-    course_entry.place(relx=0.317, rely=0.711, height=20, relwidth=0.323)
+    course_entry.place(relx = 0.317, rely = 0.711, height = 20, relwidth = 0.323)
 
     course_go_button = Button(root, text = 'GO', command = lambda: courseLookup(course_entry.get()))
-    course_go_button.place(relx=0.667, rely=0.689, height=44, width=47)
-    course_go_button.configure(pady="0")
+    course_go_button.place(relx = 0.667, rely = 0.689, height = 44, width = 47)
+    course_go_button.configure(pady = "0")
 
 def sub_codes():
     newWindow = openNewWindow('Subject Codes')
